@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Stack Overflow Lite</title>
+</head>
+<body class="bg-slate-50">
+    <!-- Header Nav -->
+    <div class="bg-white py-6 w-full border-b-4 border-slate-300">
+        <div class="container flex justify-between">
+            <div class="w-64">
+                <img class="w-fit" src="img/logo.png" alt="" >
+            </div>
+            <div">
+               <ul class="flex justify-end">
+                <li class=" pl-6"><a href="">Help</a></li>
+                <li class=" pl-6"><a href="">Login</a></li>
+               </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Nav -->
+
+    <!-- Search Bar -->
+    <div class="container my-12">
+        <div class="w-full">
+            <form class="flex justify-between drop-shadow-lg" action="">
+                <input class="py-5 px-6 m-0 grow rounded-l-lg" type="text" value="" placeholder="Search Topic" >
+                <input class="bg-blue-500 text-white m-0 py-5 px-12 grow-0 rounded-r-lg" type="button" value="Search">
+            </form>
+        </div>
+    </div>
+    <!-- End Search Bar -->
+
+    <!-- Body -->
+    <div class="container my-8">
+        <div class="grid grid-cols-9 grid-flow-col gap-2">
+            <!-- Left Sidebar -->
+            <div class="col-span-2 ">
+                <ul class="border border-2 bg-white p-4">
+                    <li class="py-3 border-b font-medium hover:text-sky-500"><a href="">HOME</a></li>
+                    <li class="py-3 border-b font-medium hover:text-sky-500"><a href="">PUBLIC</a></li>
+                    <li class="py-1 pl-5 font-medium hover:text-sky-500"><a href="">Questions</a></li>
+                    <li class="py-1 pl-5 font-medium hover:text-sky-500"><a href="">Tags</a></li>
+                    <li class="py-1 pl-5 font-medium hover:text-sky-500"><a href="">Users</a></li>
+                </ul>
+            </div>
+            <!-- End Left Sidebar -->
+            <div class="col-span-7 px-2">
+                
+                <!-- Question  -->
+                <div class="bg-white border border-2">
+                   
+                    <!-- Answer -->
+                    <div class="grid grid-cols-8 border-b pb-3">
+                        
+                        <div class="col-span-8 p-4">
+                            <div class="mb-4 py-4 mx-4">
+                                <div class="flex justify-start">
+                                    <div class="w-48 mr-4">
+                                        <img class="rounded-lg" src="img/profile.png" alt="prfile-pic">
+                                    </div>
+                                    <div>
+                                        <h3 class="text-3xl font-medium text-slate-600">Mark David Lubega</h3>
+                                        <h4 class="text-xl font-medium text-slate-400" >Front End Developer</h4>
+                                        <div class="flex justify-start mt-2">
+                                            <div class="flex text-gray-500 text-sm mr-4">
+                                                <div class="text-gray-500 text-sm pr-1">
+                                                    <a href="">
+                                                        <svg class="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <g> <path fill="none" d="M0 0h24v24H0z"></path> <path d="M8 6v3.999h3V6h2v3.999h3V6h2v3.999L19 10a3 3 0 0 1 2.995 2.824L22 13v1c0 1.014-.377 1.94-.999 2.645L21 21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-4.36a4.025 4.025 0 0 1-.972-2.182l-.022-.253L2 14v-1a3 3 0 0 1 2.824-2.995L5 10l1-.001V6h2zm11 6H5a1 1 0 0 0-.993.883L4 13v.971l.003.147A2 2 0 0 0 6 16a1.999 1.999 0 0 0 1.98-1.7l.015-.153.005-.176c.036-1.248 1.827-1.293 1.989-.134l.01.134.004.147a2 2 0 0 0 3.992.031l.012-.282c.124-1.156 1.862-1.156 1.986 0l.012.282a2 2 0 0 0 3.99 0L20 14v-1a1 1 0 0 0-.883-.993L19 12zM7 1c1.32.871 1.663 2.088 1.449 2.888a1.5 1.5 0 0 1-2.898-.776C5.85 2.002 7 2.5 7 1zm5 0c1.32.871 1.663 2.088 1.449 2.888a1.5 1.5 0 1 1-2.898-.776C10.85 2.002 12 2.5 12 1zm5 0c1.32.871 1.663 2.088 1.449 2.888a1.5 1.5 0 1 1-2.898-.776C15.85 2.002 17 2.5 17 1z" fill="#94A3B8"></path> </g> </svg>
+                                                    </a>
+                                                </div>
+                                                <div> Member for 4 years, 4 month</div>
+                                            </div>
+                                            <div class="flex text-gray-500 text-sm mr-4">
+                                                <div class="text-gray-500 text-sm pr-1">
+                                                    <a href="">
+                                                        <svg class="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><circle cx="128" cy="128" r="96" fill="none" stroke="#94A3B8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"></circle><polyline points="128 72 128 128 184 128" fill="none" stroke="#94A3B8" stroke-linecap="round" stroke-linejoin="round" stroke-width="24" ></polyline></svg>
+                                                    </a>
+                                                </div>
+                                                <div>Last seen this week</div>
+                                            </div>
+                                        </div>
+                                        <div class="flex justify-start  mt-2">
+                                            <div class="text-gray-500 text-sm pr-3">
+                                                <a href="">
+                                                    <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16"> <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" fill="#94A3B8"></path> </svg>
+                                                </a>
+                                            </div>
+                                            <div class="text-gray-500 text-sm pr-3">
+                                                <a href="">
+                                                    <svg class="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256,32C132.3,32,32,134.9,32,261.7c0,101.5,64.2,187.5,153.2,217.9a17.56,17.56,0,0,0,3.8.4c8.3,0,11.5-6.1,11.5-11.4,0-5.5-.2-19.9-.3-39.1a102.4,102.4,0,0,1-22.6,2.7c-43.1,0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1,1.4-14.1h.1c22.5,2,34.3,23.8,34.3,23.8,11.2,19.6,26.2,25.1,39.6,25.1a63,63,0,0,0,25.6-6c2-14.8,7.8-24.9,14.2-30.7-49.7-5.8-102-25.5-102-113.5,0-25.1,8.7-45.6,23-61.6-2.3-5.8-10-29.2,2.2-60.8a18.64,18.64,0,0,1,5-.5c8.1,0,26.4,3.1,56.6,24.1a208.21,208.21,0,0,1,112.2,0c30.2-21,48.5-24.1,56.6-24.1a18.64,18.64,0,0,1,5,.5c12.2,31.6,4.5,55,2.2,60.8,14.3,16.1,23,36.6,23,61.6,0,88.2-52.4,107.6-102.3,113.3,8,7.1,15.2,21.1,15.2,42.5,0,30.7-.3,55.5-.3,63,0,5.4,3.1,11.5,11.4,11.5a19.35,19.35,0,0,0,4-.4C415.9,449.2,480,363.1,480,261.7,480,134.9,379.7,32,256,32Z" fill="#94A3B8"></path></svg>
+                                                </a>
+                                            </div>
+                                            <div class="flex text-gray-500 text-sm mr-4">
+                                                <div class="text-gray-500 text-sm ">
+                                                    <a href="">
+                                                        <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16"> <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" fill="#94A3B8"></path> <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" fill="#94A3B8"></path> </svg>
+                                                    </a>
+                                                </div>
+                                                <div class="text-sm">mark.dev</div>
+                                            </div>
+                                            <div class="flex text-gray-500 text-sm mr-4">
+                                                <div class="text-gray-500 text-xm ">
+                                                    <a href="">
+                                                        <svg class="w-4" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 297 297" fill="#94A3B8" xml:space="preserve"><path d="M148.5,0C87.43,0,37.747,49.703,37.747,110.797c0,91.026,99.729,179.905,103.976,183.645
+                                                            c1.936,1.705,4.356,2.559,6.777,2.559c2.421,0,4.841-0.853,6.778-2.559c4.245-3.739,103.975-92.618,103.975-183.645
+                                                            C259.253,49.703,209.57,0,148.5,0z M148.5,79.693c16.964,0,30.765,13.953,30.765,31.104c0,17.151-13.801,31.104-30.765,31.104
+                                                            c-16.964,0-30.765-13.953-30.765-31.104C117.735,93.646,131.536,79.693,148.5,79.693z"/></svg>
+                                                    </a>
+                                                </div>
+                                                <div class="text-sm"> Ggaba, Kawuku, Kampala</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-8 grid-flow-col py-4 mx-4 gap-4">
+                                <div class="col-span-2 ">
+                                    <h3 class="text-xl">Stats</h3>
+                                    <div class="grid grid-cols-2 grid-rows-3 gap-2 grid-flow-row border p-4">
+                                        <div class="col-span-1">
+                                            <div>3,908</div>
+                                            <div class="text-sm text-slate-400">reputation</div> 
+                                        </div>
+                                        <div class="col-span-1">
+                                            <div>158k</div>
+                                            <div class="text-sm text-slate-400">reached</div>
+                                        </div>
+                                        <div class="col-span-1">
+                                            <div>25</div>
+                                            <div class="text-sm text-slate-400">answers</div>
+                                        </div>
+                                        <div class="col-span-1">
+                                            <div>1</div>
+                                            <div class="text-sm text-slate-400">question</div>
+                                        </div>
+                                        <div class="col-span-2">
+                                            <div>
+                                                <svg style="height: 30px; width: 30px; color: rgb(148, 163, 184);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,10.43V2H7v8.43c0,0.35,0.18,0.68,0.49,0.86l4.18,2.51l-0.99,2.34l-3.41,0.29l2.59,2.24L9.07,22L12,20.23L14.93,22 l-0.78-3.33l2.59-2.24l-3.41-0.29l-0.99-2.34l4.18-2.51C16.82,11.11,17,10.79,17,10.43z M13,12.23l-1,0.6l-1-0.6V3h2V12.23z" fill="#94A3B8"></path></svg>
+                                            </div>
+                                            <div class="text-sm text-slate-400">top 5% this year</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-span-6 px-4">
+                                    <section class="mb-10">
+                                        <h3 class="text-xl">About</h3>
+                                    <p>Programming is my greatest passion. Learning new techniques or create something new, is something I do regularly. Trying to determine what programming language is best to learn new techniques is important.</p>
+                                    </section>
+                                    <section>
+                                        <h3 class="text-xl">Activity</h3>
+                                        <!-- Result + Filter -->
+                                        <div class="flex justify-between">
+                                            <span class="pt-4 text-gray-700">View all <a class="text-sky-500" href="">questions,</a> <a class="text-sky-500" href="">answers</a></span>
+                                            <ul class="flex justify-between border-2 rounded">
+                                                <li class="py-3 px-4 bg-white hover:bg-gray-700 hover:text-white ease-in-out duration-300 hover:rounded-l border-r-2">All</li>
+                                                <li class="py-3 px-4 bg-white hover:bg-gray-700 hover:text-white ease-in-out duration-300 border-r-2">Questions</li>
+                                                <li class="py-3 px-4 bg-white hover:bg-gray-700 hover:text-white ease-in-out duration-300 border-r-2">Answers</li>
+                                                <li class="py-3 px-4 bg-white hover:bg-gray-700 hover:text-white ease-in-out duration-300">Newest</li>
+                                                <li class="py-3 px-4 rounded-r bg-gray-700 text-white">Score</li>
+                                            </ul>
+                                        </div>
+                                        <!-- End Results + Filter -->
+                                        <!-- Activities Table Container -->
+                                        <div class="mt-8">
+                                            <div class="grid grid-cols-12 grid-flow-col gap-2 p-2 border-x border-y">
+                                                <div class="col-span-1 mx-auto py-2">
+                                                    <svg class="svg-icon iconAnswer" fill="#22C55E" width="18" height="18" viewBox="0 0 18 18"><title>answer</title><path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path></svg>
+                                                </div>
+                                                <div class="col-span-1  mx-auto "><div class="rounded bg-green-500 px-4 py-1 text-white text-sm ">2</div></div>
+                                                <div class="col-span-8 pt-1"><a class="text-sky-500 hover:text-sky-600" href="">Multi color progress bar with border-radius and different border color</a></div>
+                                                <div class="col-span-2 pt-1 text-slate-500 text-sm text-right">Sep 14, 2020</div>
+                                            </div>
+                                            <div class="grid grid-cols-12 grid-flow-col gap-2 p-3 border-x border-b">
+                                                <div class="col-span-1 mx-auto py-2">
+                                                    <svg class="svg-icon iconAnswer" fill="#94A3B8" width="18" height="18" viewBox="0 0 18 18"><title>answer</title><path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path></svg>
+                                                </div>
+                                                <div class="col-span-1 mx-auto"><div class="rounded border px-4 py-1 text-slate-500 text-sm">4</div></div>
+                                                <div class="col-span-8 pt-1"><a class="text-sky-500 hover:text-sky-600" href="">How can I set autoplay to a vimeo video using embed tag?</a></div>
+                                                <div class="col-span-2 pt-1 text-slate-500 text-sm text-right">Feb 4, 2020</div>
+                                            </div>
+                                            <div class="grid grid-cols-12 grid-flow-col gap-2 p-3 border-x border-b">
+                                                <div class="col-span-1 mx-auto py-2">
+                                                    <svg class="svg-icon iconAnswer" fill="#94A3B8" width="18" height="18" viewBox="0 0 18 18"><title>answer</title><path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path></svg>
+                                                </div>
+                                                <div class="col-span-1  mx-auto"><div class="rounded border px-4 py-1 text-slate-500 text-sm">1</div></div>
+                                                <div class="col-span-8 pt-1"><a class="text-sky-500 hover:text-sky-600" href="">Can you mix Tailwind with vanilla CSS?</a></div>
+                                                <div class="col-span-2 pt-1 text-slate-500 text-sm text-right">Jan 10, 2020</div>
+                                            </div>
+                                            <div class="grid grid-cols-12 grid-flow-col gap-2 p-3 border-x border-b">
+                                                <div class="col-span-1 mx-auto py-2">
+                                                    <svg class="svg-icon iconAnswer" fill="#94A3B8" width="18" height="18" viewBox="0 0 18 18"><title>answer</title><path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path></svg>
+                                                </div>
+                                                <div class="col-span-1  mx-auto"><div class="rounded border px-4 py-1 text-slate-500 text-sm">1</div></div>
+                                                <div class="col-span-8 pt-1"><a class="text-sky-500 hover:text-sky-600" href="">Importing a File Into Tailwind.Config.JS</a></div>
+                                                <div class="col-span-2 pt-1 text-slate-500 text-sm text-right">Jan 9, 2020</div>
+                                            </div>
+                                            <div class="grid grid-cols-12 grid-flow-col gap-2 p-3 border-x border-b">
+                                                <div class="col-span-1 mx-auto py-2">
+                                                    <svg class="svg-icon iconAnswer" fill="#22C55E" width="18" height="18" viewBox="0 0 18 18"><title>answer</title><path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path></svg>
+                                                </div>
+                                                <div class="col-span-1  mx-auto "><div class="rounded bg-green-500 px-4 py-1 text-white text-sm">4</div></div>
+                                                <div class="col-span-8 pt-1"><a class="text-sky-500 hover:text-sky-600" href="">How to create a class that uses odd-child pseudo selector with tailwindcss</a></div>
+                                                <div class="col-span-2 pt-1 text-slate-500 text-sm text-right">Jan 8, 2020</div>
+                                            </div>
+                                            <div class="grid grid-cols-12 grid-flow-col gap-2 p-3 border-x border-b">
+                                                <div class="col-span-1 mx-auto py-2">
+                                                    <svg class="svg-icon iconAnswer" fill="#22C55E" width="18" height="18" viewBox="0 0 18 18"><title>question</title><path d="m4 15-3 3V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v9c0 1.09-.91 2-2 2H4Zm7.75-3.97c.72-.83.98-1.86.98-2.94 0-1.65-.7-3.22-2.3-3.83a4.41 4.41 0 0 0-3.02 0 3.8 3.8 0 0 0-2.32 3.83c0 1.29.35 2.29 1.03 3a3.8 3.8 0 0 0 2.85 1.07c.62 0 1.2-.11 1.71-.34.65.44 1 .68 1.06.7.23.13.46.23.7.3l.59-1.13a5.2 5.2 0 0 1-1.28-.66Zm-1.27-.9a5.4 5.4 0 0 0-1.5-.8l-.45.9c.33.12.66.29.98.5-.2.07-.42.11-.65.11-.61 0-1.12-.23-1.52-.68-.86-1-.86-3.12 0-4.11.8-.9 2.35-.9 3.15 0 .9 1.01.86 3.03-.01 4.08Z"></path></svg>
+                                                </div>
+                                                <div class="col-span-1 mx-auto "><div class="rounded bg-green-500 px-4 py-1 text-white text-sm ">1</div></div>
+                                                <div class="col-span-8 pt-1"><a class="text-sky-500 hover:text-sky-600" href="">Flexbox Tailwind CSS Inline Block Not Working</a></div>
+                                                <div class="col-span-2 pt-1 text-slate-500 text-sm text-right">Jan 7, 2020</div>
+                                            </div>
+                                            <div class="grid grid-cols-12 grid-flow-col gap-2 p-3 border-x border-b">
+                                                <div class="col-span-1 mx-auto py-2">
+                                                    <svg class="svg-icon iconAnswer" fill="#22C55E" width="18" height="18" viewBox="0 0 18 18"><title>answer</title><path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path></svg>
+                                                </div>
+                                                <div class="col-span-1 mx-auto "><div class="rounded bg-green-500 px-4 py-1 text-white text-sm">3</div></div>
+                                                <div class="col-span-8 pt-1"><a class="text-sky-500 hover:text-sky-600" href="">Tailwind - Flex row children don't grow in height</a></div>
+                                                <div class="col-span-2 pt-1 text-slate-500 text-sm text-right">Jan 6, 2020</div>
+                                            </div>
+                                            <div class="grid grid-cols-12 grid-flow-col gap-2 p-3 border-x border-b">
+                                                <div class="col-span-1 mx-auto py-2">
+                                                    <svg class="svg-icon iconAnswer" fill="#94A3B8" width="18" height="18" viewBox="0 0 18 18"><title>answer</title><path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path></svg>
+                                                </div>
+                                                <div class="col-span-1 mx-auto"><div class="rounded border px-4 py-1 text-slate-500 text-sm ">4</div></div>
+                                                <div class="col-span-8 pt-1"><a class="text-sky-500 hover:text-sky-600" href="">How do I manipulate trix-editor to stop resizing after pressing after enter 4 times in a row</a></div>
+                                                <div class="col-span-2 pt-1 text-slate-500 text-sm text-right">Dec 21, 2019</div>
+                                            </div>
+                                            <div class="grid grid-cols-12 grid-flow-col gap-2 p-3 border-x border-b">
+                                                <div class="col-span-1 mx-auto py-2">
+                                                    <svg class="svg-icon iconAnswer" fill="#94A3B8" width="18" height="18" viewBox="0 0 18 18"><title>answer</title><path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path></svg>
+                                                </div>
+                                                <div class="col-span-1 mx-auto"><div class="rounded border px-4 py-1 text-slate-500 text-sm">4</div></div>
+                                                <div class="col-span-8 pt-1"><a class="text-sky-500 hover:text-sky-600" href="">Neo4J: How could I restart the database from the cypher-shell?</a></div>
+                                                <div class="col-span-2 pt-1 text-slate-500 text-sm text-right">Dec 13, 2019</div>
+                                            </div>
+                                            <div class="grid grid-cols-12 grid-flow-col gap-2 p-3 border-x border-b">
+                                                <div class="col-span-1 mx-auto py-2">
+                                                    <svg class="svg-icon iconAnswer" fill="#94A3B8" width="18" height="18" viewBox="0 0 18 18"><title>answer</title><path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path></svg>
+                                                </div>
+                                                <div class="col-span-1 mx-auto"><div class="rounded border px-4 py-1 text-slate-500 text-sm ">4</div></div>
+                                                <div class="col-span-8 pt-1"><a class="text-sky-500 hover:text-sky-600" href="">Tailwindcss Dropdown item flying off to edge of the screen instead of under the dropdown button</a></div>
+                                                <div class="col-span-2 pt-1 text-slate-500 text-sm text-right">Nov 27, 2019</div>
+                                            </div>
+                                            <div class="grid grid-cols-12 grid-flow-col gap-2 p-3 border-x border-b">
+                                                <div class="col-span-1 mx-auto py-2">
+                                                    <svg class="svg-icon iconAnswer" fill="#94A3B8" width="18" height="18" viewBox="0 0 18 18"><title>answer</title><path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z"></path></svg>
+                                                </div>
+                                                <div class="col-span-1 mx-auto"><div class="rounded border px-4 py-1 text-slate-500 text-sm">4</div></div>
+                                                <div class="col-span-8 pt-1"><a class="text-sky-500 hover:text-sky-600" href="">Pinescript Highest Lowest Value for a Specific Time-range/Session?</a></div>
+                                                <div class="col-span-2 pt-1 text-slate-500 text-sm text-right">Nov 17, 2019</div>
+                                            </div>
+                                            
+                                        </div>
+                                        <!-- End Activities Table Container -->
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Answer -->
+                </div>
+                <!-- End question -->
+            </div>
+            <!-- End Main Content -->
+        </div>
+    </div>
+    <!-- End Body -->
+
+    <script src="/node_modules/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>

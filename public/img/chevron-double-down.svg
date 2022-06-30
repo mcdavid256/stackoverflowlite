@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.972" height="19.092" viewBox="0 0 16.972 19.092">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5e7682;
+      }
+    </style>
+  </defs>
+  <g id="chevron-double-down" transform="translate(26.486 27.546) rotate(180)">
+    <path id="Path_21" data-name="Path 21" class="cls-1" d="M11.636,8.454,9.514,10.575,18,19.061l8.486-8.486L24.365,8.454,18,14.82Z"/>
+    <path id="Path_22" data-name="Path 22" class="cls-1" d="M9.514,19.061l2.121-2.121L18,23.3l6.365-6.365,2.121,2.121L18,27.546,9.514,19.06Z"/>
+  </g>
+</svg>
