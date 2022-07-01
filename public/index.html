@@ -50,7 +50,7 @@
     <div class="container my-12">
         <div class="w-full">
             <form class="flex justify-between drop-shadow-lg" action="">
-                <input class="py-5 px-6 m-0 grow rounded-l-lg focus:border-blue-400;" type="text" value="" placeholder="Search Topic" >
+                <input class="py-5 px-6 m-0 grow rounded-l-lg focus:outline-none focus:shadow-lg" type="text" value="" placeholder="Search Topic" >
                 <input class="bg-blue-500 text-white m-0 py-5 px-12 grow-0 rounded-r-lg" type="button" value="Search">
             </form>
         </div>
@@ -224,21 +224,20 @@
                     <!-- Pagination -->
                     <div class="pagination flex justify-between p-8">
                         <!-- Page Numbers -->
-                        <div class="pages flex justify-between p-8">
-                            <div class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2"><a href="">1</a></div>
-                            <div class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2"><a href="">2</a></div>
-                            <div class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2"><a href="">3</a></div>
-                            <div class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2"><a href="">4</a></div>
+                        <div class="pages flex justify-between py-2">
+                            <div><a class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2" href="">1</a></div>
+                            <div><a class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2" href="">2</a></div>
+                            <div><a class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2" href="">3</a></div>
                             <div class="mx-4">...</div>
-                            <div class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2"><a href="">20</a></div>
-                            <div class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2"><a href="">Next</a></div>
+                            <div><a class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2" href="">20</a></div>
+                            <div><a class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2" href="">Next</a></div>
                         </div>
                         <!-- Page Filter -->
-                        <div class="pages flex justify-between p-8">
-                            <div class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2"><a href="">15</a></div>
-                            <div class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2"><a href="">30</a></div>
-                            <div class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2"><a href="">50</a></div>
-                            <div class="border rounded py-1 px-3">Per Page</div>
+                        <div class="pages flex justify-between py-2">
+                            <div><a class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2" href="">15</a></div>
+                            <div><a class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2" href="">30</a></div>
+                            <div><a class="border rounded py-1 px-3 hover:bg-sky-500 hover:text-white ease-in-out duration-300 mr-2" href="">50</a></div>
+                            <div><div class="border rounded py-1 px-2">Per Page</div></div>
 
                         </div>
                     </div>
