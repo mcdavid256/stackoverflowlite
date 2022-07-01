@@ -9,19 +9,41 @@
 </head>
 <body class="bg-slate-50">
     <!-- Header Nav -->
-    <div class="bg-white py-6 w-full border-b-4 border-slate-300">
-        <div class="container flex justify-between">
-            <div class="w-64">
-                <img class="w-fit" src="img/logo.png" alt="" >
+    <nav class=" relative w-full flex flex-wrap items-center justify-between py-4 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light ">
+        <div class="container w-full flex flex-wrap items-center justify-between px-6">
+            <button class=" navbar-toggler text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> <path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"> </path> </svg> </button>
+            <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
+                <a class=" flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1 " href="#"> <img src="/public/img/logo.png" alt="" style="height: 32px;" loading="lazy" /> </a>
             </div>
-            <div">
-               <ul class="flex justify-end">
-                <li class=" pl-6"><a href="">Help</a></li>
-                <li class=" pl-6"><a href="">Login</a></li>
-               </ul>
+            <!-- Collapsible wrapper -->
+    
+            <!-- Right elements -->
+            <div class="flex items-center relative">
+                <div class="dropdown relative">
+                    <a class=" text-gray-500 hover:text-gray-700 focus:text-gray-700 mr-6 dropdown-toggle hidden-arrow flex items-center " href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Help</a>
+                </div>
+                <div class="dropdown relative">
+                    <a class="dropdown-toggle flex items-center hidden-arrow" href="#" id="dropdownMenuButton2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Login
+                    </a>
+                    <div class=" dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none left-auto right-0 w-32 " aria-labelledby="dropdownMenuButton2">
+                        <form action="">
+                            <div class="flex flex-col p-6">
+                                <input class="border rounded p-2 mb-2" type="text" name="" id="" placeholder="username">
+                                <input class="border rounded p-2 mb-2" type="password" name="" id="" placeholder="password">
+                                <input class="py-3 px-4 text-white bg-blue-600 rounded" type="submit" value="Login">
+                                <div class="pt-2">
+                                    <div class="text-sm text-center text-sky-700"><a href="/public/register.html">Sign Up</a></div>
+                                    <div class="text-sm text-center text-sky-700"><a href="">Forgot Password?</a></div>
+                                </div>
+                            </div>
+                          </form>
+                    </div>
+                </div>
             </div>
+            <!-- Right elements -->
         </div>
-    </div>
+    </nav>
     <!-- End Header Nav -->
 
     <!-- Body -->

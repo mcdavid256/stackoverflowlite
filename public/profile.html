@@ -9,19 +9,33 @@
 </head>
 <body class="bg-slate-50">
     <!-- Header Nav -->
-    <div class="bg-white py-6 w-full border-b-4 border-slate-300">
-        <div class="container flex justify-between">
-            <div class="w-64">
-                <img class="w-fit" src="img/logo.png" alt="" >
+    <nav class=" relative w-full flex flex-wrap items-center justify-between py-4 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light ">
+        <div class="container w-full flex flex-wrap items-center justify-between px-6">
+            <button class=" navbar-toggler text-gray-500 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> <path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"> </path> </svg> </button>
+            <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
+                <a class=" flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1 " href="#"> <img src="/public/img/logo.png" alt="" style="height: 32px;" loading="lazy" /> </a>
             </div>
-            <div">
-               <ul class="flex justify-end">
-                <li class=" pl-6"><a href="">Help</a></li>
-                <li class=" pl-6"><a href="">Login</a></li>
-               </ul>
+            <!-- Collapsible wrapper -->
+    
+            <!-- Right elements -->
+            <div class="flex items-center relative">
+                <div class="dropdown relative">
+                    <a class=" text-gray-500 hover:text-gray-700 focus:text-gray-700 mr-6 dropdown-toggle hidden-arrow flex items-center " href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Help</a>
+                </div>
+                <div class="dropdown relative">
+                    <a class="dropdown-toggle flex items-center hidden-arrow" href="#" id="dropdownMenuButton2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="/public/img/profile.png" class="rounded-full mx-2" style="height: 32px; width: 32px" alt="" loading="lazy" /> My Account
+                    </a>
+                    <ul class=" dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 hidden m-0 bg-clip-padding border-none left-auto right-0 w-32 " aria-labelledby="dropdownMenuButton2">
+                        <li> <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="/public/profile.html">Profile</a> </li>
+                        <li> <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="#">Settings</a> </li>
+                        <li> <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 " href="/public/index.html">Log Out</a> </li>
+                    </ul>
+                </div>
             </div>
+            <!-- Right elements -->
         </div>
-    </div>
+    </nav>
     <!-- End Header Nav -->
 
     <!-- Search Bar -->
@@ -101,18 +115,16 @@
                                                         <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16"> <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z" fill="#94A3B8"></path> <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z" fill="#94A3B8"></path> </svg>
                                                     </a>
                                                 </div>
-                                                <div class="text-sm">mark.dev</div>
+                                                <div class="text-sm"><a href="#">mark.dev</a></div>
                                             </div>
                                             <div class="flex text-gray-500 text-sm mr-4">
                                                 <div class="text-gray-500 text-xm ">
-                                                    <a href="">
                                                         <svg class="w-4" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 297 297" fill="#94A3B8" xml:space="preserve"><path d="M148.5,0C87.43,0,37.747,49.703,37.747,110.797c0,91.026,99.729,179.905,103.976,183.645
                                                             c1.936,1.705,4.356,2.559,6.777,2.559c2.421,0,4.841-0.853,6.778-2.559c4.245-3.739,103.975-92.618,103.975-183.645
                                                             C259.253,49.703,209.57,0,148.5,0z M148.5,79.693c16.964,0,30.765,13.953,30.765,31.104c0,17.151-13.801,31.104-30.765,31.104
                                                             c-16.964,0-30.765-13.953-30.765-31.104C117.735,93.646,131.536,79.693,148.5,79.693z"/></svg>
-                                                    </a>
                                                 </div>
-                                                <div class="text-sm"> Ggaba, Kawuku, Kampala</div>
+                                                <div class="text-sm">Kampala, Uganda</div>
                                             </div>
                                             
                                         </div>
